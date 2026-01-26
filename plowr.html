@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plowr | Snow Removal on Demand</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            /* Light blue snowflake background pattern */
+            background-image: url('https://www.transparenttextures.com/patterns/snow.png');
+            background-color: #f0faff; 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        header {
+            margin-top: 50px;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            color: #002366; /* Royal Blue */
+            font-size: 4rem;
+            letter-spacing: 8px;
+            margin: 0;
+            font-weight: 900;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            width: 100%;
+            max-width: 400px;
+            border-top: 5px solid #002366;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+            font-weight: 600;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e0eefb;
+            border-radius: 8px;
+            box-sizing: border-box;
+            font-size: 1rem;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+
+        input:focus, select:focus {
+            border-color: #002366;
+        }
+
+        button {
+            width: 100%;
+            padding: 15px;
+            background-color: #002366;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        button:hover {
+            background-color: #003399;
+        }
+
+        p.tagline {
+            color: #555;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>PLOWR</h1>
+    </header>
+
+    <p class="tagline">Simple, fast snow removal at your fingertips.</p>
+
+    <div class="container">
+        <form action="#">
+            <div class="form-group">
+                <label for="datetime">Select Date & Time</label>
+                <input type="datetime-local" id="datetime" name="datetime" required>
+            </div>
+
+            <div class="form-group">
+                <label for="snow-depth">Expected Snow Amount</label>
+                <select id="snow-depth" name="snow-depth">
+                    <option value="3">Up to 3 inches</option>
+                    <option value="6">3 - 6 inches</option>
+                    <option value="9">6 - 9 inches</option>
+                    <option value="12">9 - 12 inches</option>
+                    <option value="15">12 - 15 inches</option>
+                    <option value="18">15+ inches (Heavy Storm)</option>
+                </select>
+            </div>
+
+            <button type="submit">Book My Plow</button>
+        </form>
+    </div>
+
+</body>
+</html>
