@@ -49,6 +49,12 @@ def update_assumption_field(field_path: str, new_value, updated_by: str) -> Assu
     node = asm_dict
     for part in parts[:-1]:
         node = node[part]
+    # Coerce string numerics to float so JSON stores numbers, not strings
+    if isinstance(new_value, str):
+        try:
+            new_value = float(new_value)
+        except ValueError:
+            pass
     node[parts[-1]] = new_value
     asm_dict["last_updated"] = date.today().isoformat()
     asm_dict["updated_by"] = updated_by
