@@ -1,0 +1,57 @@
+[
+  {
+    "client_id": "CLT001",
+    "client_name": "Acme Manufacturing Co",
+    "num_members": 2450,
+    "monthly_premium_pmpm": 485.5,
+    "annual_expected_claims": 14250000.0,
+    "contract_end_date": "2026-12-31",
+    "plan_type": "PPO",
+    "industry": "Manufacturing",
+    "notes": "Renewal due Q4"
+  },
+  {
+    "client_id": "CLT002",
+    "client_name": "Metro Healthcare System",
+    "num_members": 8200,
+    "monthly_premium_pmpm": 510.0,
+    "annual_expected_claims": 50800000.0,
+    "contract_end_date": "2026-09-30",
+    "plan_type": "HMO",
+    "industry": "Healthcare",
+    "notes": "Mid-year renewal"
+  },
+  {
+    "client_id": "CLT003",
+    "client_name": "TechVentures Inc",
+    "num_members": 1200,
+    "monthly_premium_pmpm": 462.75,
+    "annual_expected_claims": 6720000.0,
+    "contract_end_date": "2027-03-31",
+    "plan_type": "HDHP",
+    "industry": "Technology",
+    "notes": "First-year plan"
+  },
+  {
+    "client_id": "CLT004",
+    "client_name": "Regional Bank Group",
+    "num_members": 3800,
+    "monthly_premium_pmpm": 498.25,
+    "annual_expected_claims": 22500000.0,
+    "contract_end_date": "2026-12-31",
+    "plan_type": "PPO",
+    "industry": "Financial Services",
+    "notes": "High-cost claimants"
+  },
+  {
+    "client_id": "CLT005",
+    "client_name": "Sunrise School District",
+    "num_members": 5500,
+    "monthly_premium_pmpm": 445.0,
+    "annual_expected_claims": 29700000.0,
+    "contract_end_date": "2027-06-30",
+    "plan_type": "POS",
+    "industry": "Education",
+    "notes": "Retiree population included"
+  }
+]

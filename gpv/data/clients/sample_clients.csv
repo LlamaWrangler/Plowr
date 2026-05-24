@@ -1,0 +1,6 @@
+client_id,client_name,num_members,monthly_premium_pmpm,annual_expected_claims,contract_end_date,plan_type,industry,notes
+CLT001,Acme Manufacturing Co,2450,485.50,14250000,2026-12-31,PPO,Manufacturing,Renewal due Q4
+CLT002,Metro Healthcare System,8200,510.00,50800000,2026-09-30,HMO,Healthcare,Mid-year renewal
+CLT003,TechVentures Inc,1200,462.75,6720000,2027-03-31,HDHP,Technology,First-year plan
+CLT004,Regional Bank Group,3800,498.25,22500000,2026-12-31,PPO,Financial Services,High-cost claimants
+CLT005,Sunrise School District,5500,445.00,29700000,2027-06-30,POS,Education,Retiree population included

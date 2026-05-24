@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "gpv": {
+      "command": "python",
+      "args": ["-m", "gpv.mcp_server"],
+      "cwd": "/home/user/Plowr",
+      "description": "Gross Premium Valuation MCP Server — manage actuarial valuations for large group health plans"
+    }
+  }
+}

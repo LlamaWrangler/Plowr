@@ -1,0 +1,144 @@
+================================================================================
+DRAFT ACTUARIAL OPINION
+GROSS PREMIUM VALUATION — LARGE GROUP HEALTH INSURANCE
+================================================================================
+Client:         Metro Healthcare System
+Prepared:       2026-05-24
+Opinion ID:     OPN-95E78146
+Valuation ID:   VAL-57825CBD
+DRAFT — FOR REVIEW PURPOSES ONLY — NOT FOR DISTRIBUTION
+================================================================================
+
+EXECUTIVE SUMMARY
+=================
+Client:            Metro Healthcare System
+Valuation Date:    2026-05-24
+Contract End:      2026-09-30
+Projection Period: 5 months
+
+Gross Premium Valuation (GPV): $-112,644
+Status: DEFICIENCY — trended claims are expected to exceed premiums.
+
+The present value of future premiums less the present value of future trended claims
+produces a DEFICIENCY of $112,644 over the remaining contract period.
+
+Key Metrics:
+  • Projected Loss Ratio:          100.6%
+  • Projected Claims (PMPM):       $512.82 PMPM
+  • Current Premium (PMPM):        $510.00 PMPM
+  • Total Projected Claims:        $21,025,485
+  • Total Projected Premium:       $20,910,000
+  • Enrolled Members:              8,200 if result.monthly_projections else "N/A"
+
+
+ACTUARIAL ASSUMPTIONS
+=====================
+Assumptions Version: 1.0.0
+Effective Date:      2026-05-24
+
+1. MEDICAL TREND
+   Annual Rate:  8.0%
+   Rationale:    8% reflects recent elevated utilization post-COVID normalization and unit cost increases
+   Source:       SOA Group Health Trend Survey and CMS National Health Expenditure data
+   Sensitivity:  Low 6.0% / High 10.0%
+
+2. Rx (PHARMACY) TREND
+   Annual Rate:  12.0%
+   Rationale:    12% reflects specialty drug pipeline, GLP-1 adoption, and biosimilar lag
+   Source:       PBM industry trend reports, GLP-1 medication cost impact
+   Sensitivity:  Low 9.0% / High 16.0%
+
+3. CLAIMS ADJUSTMENT (IBNR / POOLING)
+   Annual Rate:  2.0%
+   Rationale:    2% adjustment captures IBNR development and stop-loss pooling charges not reflected in base expected claims
+   Source:       Actuarial judgment
+
+4. CASH CARD / HEALTH BENEFIT CARD DEDUCTION
+   Per Member Per Month: $15.00 PMPM
+   Rationale:    Cash card benefits reduce net claim liability; applied as a fixed PMPM deduction
+   Source:       Plan design documents
+
+5. CLAIMS SPLIT (Medical / Rx)
+   Medical Portion: 75.0%
+   Rx Portion:      25.0%
+   Rationale:       Typical large group split; adjust per client experience data when available
+
+6. DISCOUNT RATE
+   Annual Rate:  5.0%
+   Rationale:    Reflects risk-free rate appropriate for near-term insurance liabilities
+   Source:       US Treasury 2-year yield + 50bps risk margin
+   Sensitivity:  Low 4.0% / High 7.0%
+
+7. PROJECTION BASIS
+   Frequency:    Monthly
+   Compounding:  Continuous (trend applied to midpoint of each period)
+
+
+VALUATION RESULTS
+=================
+Valuation ID: VAL-57825CBD
+
+FINANCIAL SUMMARY
+  Total Projected Premium:        $20,910,000
+  Total Projected Claims (Net):   $21,025,485
+  Total Net Cash Flow:            $-115,485
+  Gross Premium Valuation (GPV):  $-112,644
+
+TREND IMPACT BREAKDOWN (Total over projection period)
+  Medical Trend Incremental Cost: $257,248
+  Rx Trend Incremental Cost:      $126,907
+  Claims Adjustment:              $89,664
+  Cash Card Benefit (Reduction):  ($615,000)
+
+UNIT COST METRICS
+  Current Premium PMPM:           $510.00 PMPM
+  Projected Claims PMPM:          $512.82 PMPM
+  Projected Loss Ratio:           100.6%
+
+MONTHLY PROJECTION SCHEDULE (First 12 periods)
+  Period   Date             Net Claims        Premium         Net CF      PV Net CF
+  ----------------------------------------------------------------------------
+  1        2026-06-24       $4,129,047     $4,182,000        $52,953        $52,840
+  2        2026-07-24       $4,166,729     $4,182,000        $15,271        $15,173
+  3        2026-08-24       $4,204,752     $4,182,000       $-22,752       $-22,511
+  4        2026-09-24       $4,243,120     $4,182,000       $-61,120       $-60,213
+  5        2026-10-24       $4,281,836     $4,182,000       $-99,836       $-97,934
+
+
+SCENARIO ANALYSIS
+==================================================
+
+  Scenario                          GPV   Loss Ratio    Claims PMPM
+  -----------------------------------------------------------------
+  Base Case                    $-31,103       100.4%   $487.21 PMPM
+  Favorable                     $36,539        99.6%   $483.70 PMPM
+  Adverse                     $-105,630       101.2%   $491.06 PMPM
+  High Rx Trend                $-60,137       100.7%   $488.73 PMPM
+  No Cash Card                $-320,133       103.4%   $502.21 PMPM
+
+Scenario Descriptions:
+  • Base Case: Central assumption set
+  • Favorable: Low trend, high discount rate
+  • Adverse: High trend, low discount rate
+  • High Rx Trend: GLP-1 / specialty drug acceleration
+  • No Cash Card: Cash card benefit discontinued
+
+
+COMPARISON TO PRIOR VALUATION
+==================================================
+No prior valuation available for comparison.
+
+
+CONCLUSIONS AND RECOMMENDATIONS
+================================
+The plan shows a DEFICIENCY of $112,644. Management should consider rate action, benefit redesign, or reserve strengthening.
+
+This opinion is based on the assumptions and data described herein and is intended
+for the internal use of management in evaluating premium adequacy for group health
+contract Metro Healthcare System. The actuary is not responsible for actions taken
+by others based on this analysis without full consideration of the limitations noted.
+
+Prepared by: [Credentialed Actuary — MAAA, FSA/ASA]
+Date:        2026-05-24
+
+Actuary's Note: Test run.
