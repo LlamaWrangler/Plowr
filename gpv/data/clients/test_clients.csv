@@ -1,0 +1,21 @@
+client_id,client_name,num_members,monthly_premium_pmpm,annual_expected_claims,contract_end_date,plan_type,industry,notes
+CLT101,Metro City Government,11800,495.00,67824000,2026-12-31,PPO,Government,Large municipal group; retiree supplement included; stable membership
+CLT102,St. Augustine Regional Medical Center,4500,542.00,27324000,2026-09-30,HMO,Healthcare,High-cost claimant population; 3 transplant cases in prior year
+CLT103,National Auto Parts Corp,17600,508.50,103219200,2027-03-31,PPO,Manufacturing,UAW-negotiated plan; rich benefits; high trauma utilization
+CLT104,Midwestern State University,6800,458.00,38121600,2026-12-31,POS,Education,Faculty + staff + grad students; high maternity utilization
+CLT105,Harrington & Wells LLP,920,638.00,6671520,2026-12-31,PPO,Legal,High-income demographic; low deductible plan; frequent specialist use
+CLT106,ValueMart Retail Group,21500,374.00,92488800,2027-06-30,HDHP,Retail,High turnover; predominantly young female workforce; HSA-paired plan
+CLT107,ClearPath Technologies,415,482.00,2210760,2027-12-31,HDHP,Technology,Healthy young workforce; low utilization history; first-year client
+CLT108,Summit Bridge & Construction,1750,512.00,10483200,2026-12-31,PPO,Construction,Elevated musculoskeletal and injury claims; aging workforce
+CLT109,GreatLakes Health Network,34200,488.00,194734080,2027-03-31,HMO,Healthcare,Self-funded with ASO arrangement; complex stop-loss structure
+CLT110,Jefferson County School District,2150,448.00,11491200,2026-07-31,POS,Education,High PMPM claims trend; prior year large claimant ($2.1M); at-risk
+CLT111,Transcontinental Airways,8300,501.00,48720600,2026-12-31,PPO,Transportation,Pilot population with high musculoskeletal; FMLA utilization elevated
+CLT112,Apex Pharmaceuticals Inc,3100,558.00,19840320,2027-06-30,PPO,Pharmaceutical,Specialty drug utilization well above benchmark; oncology cases
+CLT113,Rocky Mountain Mining Co,1080,534.00,6718464,2027-09-30,PPO,Energy/Mining,Remote workforce; occupational injury claims; behavioral health carve-out
+CLT114,Golden State Food & Beverage,9600,422.00,46448640,2026-12-31,HMO,Food & Beverage,Predominantly hourly workers; bilingual population; high ER utilization
+CLT115,First National Financial Group,27500,522.00,161193600,2027-12-31,PPO,Financial Services,White-collar; high participation in wellness programs; favorable LR trend
+CLT116,Northeast Logistics Partners,3800,476.00,20808576,2026-08-31,PPO,Transportation,Driver population; high BMI-related chronic conditions; diabetes program
+CLT117,Greenfield Unified School District,4200,441.00,21773520,2027-06-30,POS,Education,Retiree population 18%; high prescription costs; Medicare coordination
+CLT118,Coastal Energy Utilities,6100,514.00,36299520,2027-12-31,PPO,Energy/Utilities,Aging male-dominant workforce; cardiovascular and oncology risk
+CLT119,PacificRim Hospitality Group,12400,388.00,56167680,2026-12-31,HMO,Hospitality,Seasonal membership fluctuation +/-15%; high turnover; low wage earners
+CLT120,BioGen Research Institute,2200,595.00,15049440,2028-03-31,PPO,Life Sciences,Highly educated; GLP-1 and specialty Rx adoption very high; 3-year contract
